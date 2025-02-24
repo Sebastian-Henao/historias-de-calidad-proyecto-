@@ -1,1 +1,0 @@
-# historias-de-calidad-proyecto-

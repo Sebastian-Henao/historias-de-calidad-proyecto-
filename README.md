@@ -1,6 +1,6 @@
 # Historia 6
 
-***Pruebas automatizadas***
+**Pruebas automatizadas**
 
 **Prioridad:** Alta
 

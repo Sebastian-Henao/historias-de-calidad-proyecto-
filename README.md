@@ -18,3 +18,20 @@
 - **Yo como:** Desarrollador.
 - **Quiero:** Ejecutar pruebas automatizadas con JUnit, Mockito, Jasmine y Karma para validar que las modificaciones en el código no introducen errores ni afectan el rendimiento del sistema.
 - **Y debe suceder:** El sistema deberá ejecutar pruebas unitarias y de integración automáticamente en cada cambio de código, asegurando que las funcionalidades sigan operando correctamente sin introducir regresiones. Además, las pruebas deberán ejecutarse en menos de 10 segundos y generar reportes claros para facilitar la depuración de errores.
+
+# historias-de-calidad-proyecto-
+
+## Disponibilidad
+
+**Prioridad:** Alta
+
+**Atributo de calidad:** Disponibilidad
+
+**Cuando:** Un profesor intente subir o actualizar un OVA.
+
+**Dado que:** El sistema se encuentra en estado normal.
+
+**Yo como:** Profesor.
+
+**Quiero:** Subir o actualizar simuladores o calculadoras didácticas sin interrupciones ni errores.
+Y debe suceder: El sistema deberá permitir la carga o actualización de recursos sin caídas ni pérdida de datos, garantizando que los cambios estén disponibles para los estudiantes en menos de 5 segundos después de la publicación.

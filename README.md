@@ -1,7 +1,5 @@
 # Aplicacion: Pagina web para gestion de OVAs (Objetos Virtuales para el Aprendizaje)
 
-# historias-de-calidad-proyecto-
-
 ## Historia 1
 ***Escalabilidad***
 - **Prioridad:** Alta. 
@@ -13,20 +11,13 @@
 - **Y debe suceder:** Que el sistema escale automáticamente sus recursos (servidores, bases de datos, almacenamiento) para mantener tiempos de respuesta óptimos y garantizar el acceso ininterrumpido a los OVA.
 
 ## Historia 2
-
 - **Prioridad:** Alta
-
 - **Atributo de calidad:** Disponibilidad
-
 - **Cuando:** Un profesor intente subir o actualizar un OVA.
-
 - **Dado que:** El sistema se encuentra en estado normal.
-
 - **Yo como:** Profesor.
-
 - **Quiero:** Subir o actualizar simuladores o calculadoras didácticas sin interrupciones ni errores.
 Y debe suceder: El sistema deberá permitir la carga o actualización de recursos sin caídas ni pérdida de datos, garantizando que los cambios estén disponibles para los estudiantes en menos de 5 segundos después de la publicación.
-
 
 ## Historia 3
 
@@ -56,7 +47,6 @@ Y debe suceder: El sistema deberá permitir la carga o actualización de recurso
 - **Yo como:** Administrador del sistema
 - **Quiero:** Poder realizar cambios en las ayudas didacticas de forma rapida y facil, sin afectar la funcionalidad del resto de ayudas
 - **Y debe suceder:** Los cambios deben reflejarse en maximo 5 minutos despues de haberlos aceptado.
-
 
 ## Historia 6
 ***Pruebas automatizadas***

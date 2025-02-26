@@ -1,7 +1,7 @@
 # historias-de-calidad-proyecto-
 
-## Escalabilidad
-
+## Historia 1
+***Escalabilidad***
 - **Prioridad:** Alta. 
 - **Atributo de calidad:** Escalabilidad.
 - **Cuando:** La cantidad de usuarios simultáneos aumenta significativamente.  

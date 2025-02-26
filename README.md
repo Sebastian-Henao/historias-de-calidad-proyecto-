@@ -26,6 +26,15 @@ Y debe suceder: El sistema deberá permitir la carga o actualización de recurso
 - **Quiero:** Que el acceso a los OVA esté protegido mediante autenticación segura y control de permisos.  
 - **Y debe suceder:** Que solo los usuarios autorizados (profesores y estudiantes registrados) puedan acceder a los recursos educativos, evitando accesos no autorizados mediante autenticación segura, cifrado de datos y protección contra ataques externos. 
 
+## Historia 4
+
+- **Prioridad:** Media  
+- **Atributo de calidad:** Monitoreo  
+- **Cuando:** Un administrador quiera supervisar el uso de los Objetos Virtuales de Aprendizaje (OVA).  
+- **Dado que:** Es importante conocer cómo se utilizan los recursos educativos dentro de la plataforma.  
+- **Yo como:** Administrador del sistema.  
+- **Quiero:** Tener acceso a métricas y reportes sobre el uso de los OVA por parte de profesores y estudiantes.  
+- **Y debe suceder:** Que el sistema registre y muestre información en tiempo real sobre la cantidad de accesos, frecuencia de uso y tipos de recursos utilizados, permitiendo generar reportes para mejorar la gestión y optimización de los OVA.  
 
 ## Historia 5
 - **Prioridad:** Alta
@@ -46,3 +55,5 @@ Y debe suceder: El sistema deberá permitir la carga o actualización de recurso
 - **Yo como:** Desarrollador.
 - **Quiero:** Ejecutar pruebas automatizadas con JUnit, Mockito, Jasmine y Karma para validar que las modificaciones en el código no introducen errores ni afectan el rendimiento del sistema.
 - **Y debe suceder:** El sistema deberá ejecutar pruebas unitarias y de integración automáticamente en cada cambio de código, asegurando que las funcionalidades sigan operando correctamente sin introducir regresiones. Además, las pruebas deberán ejecutarse en menos de 10 segundos y generar reportes claros para facilitar la depuración de errores.
+
+

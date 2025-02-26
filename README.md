@@ -2,18 +2,29 @@
 
 ## Historia 2
 
-**Prioridad:** Alta
+- **Prioridad:** Alta
 
-**Atributo de calidad:** Disponibilidad
+- **Atributo de calidad:** Disponibilidad
 
-**Cuando:** Un profesor intente subir o actualizar un OVA.
+- **Cuando:** Un profesor intente subir o actualizar un OVA.
 
-**Dado que:** El sistema se encuentra en estado normal.
+- **Dado que:** El sistema se encuentra en estado normal.
 
-**Yo como:** Profesor.
+- **Yo como:** Profesor.
 
-**Quiero:** Subir o actualizar simuladores o calculadoras didácticas sin interrupciones ni errores.
+- **Quiero:** Subir o actualizar simuladores o calculadoras didácticas sin interrupciones ni errores.
 Y debe suceder: El sistema deberá permitir la carga o actualización de recursos sin caídas ni pérdida de datos, garantizando que los cambios estén disponibles para los estudiantes en menos de 5 segundos después de la publicación.
+
+
+## Historia 3
+
+- **Prioridad:** Alta  
+- **Atributo de calidad:** Seguridad  
+- **Cuando:** Un usuario intente acceder a los Objetos Virtuales de Aprendizaje (OVA).  
+- **Dado que:** La aplicación maneja recursos educativos que deben estar protegidos contra accesos no autorizados.  
+- **Yo como:** Usuario del sistema (profesor o estudiante).  
+- **Quiero:** Que el acceso a los OVA esté protegido mediante autenticación segura y control de permisos.  
+- **Y debe suceder:** Que solo los usuarios autorizados (profesores y estudiantes registrados) puedan acceder a los recursos educativos, evitando accesos no autorizados mediante autenticación segura, cifrado de datos y protección contra ataques externos. 
 
 
 ## Historia 5
